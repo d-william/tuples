@@ -19,7 +19,7 @@ public class SerializableDecuple<T1 extends Serializable, T2 extends Serializabl
 
     @Override
     public SerializableDecuple<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> clone() {
-        return new SerializableDecuple<>(this); // SerializableDecuple<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+        return new SerializableDecuple<>(this);
     }
 
     @Override

@@ -19,7 +19,7 @@ public class SerializableTriple<T1 extends Serializable, T2 extends Serializable
 
     @Override
     public SerializableTriple<T1, T2, T3> clone() {
-        return new SerializableTriple<>(this); // SerializableTriple<T1, T2, T3>
+        return new SerializableTriple<>(this);
     }
 
     @Override

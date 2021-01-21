@@ -19,7 +19,7 @@ public class SerializablePair<T1 extends Serializable, T2 extends Serializable> 
 
     @Override
     public SerializablePair<T1, T2> clone() {
-        return new SerializablePair<>(this); // SerializablePair<T1, T2>
+        return new SerializablePair<>(this);
     }
 
     @Override

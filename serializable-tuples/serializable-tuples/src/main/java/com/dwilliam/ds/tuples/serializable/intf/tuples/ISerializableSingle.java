@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * Marker interface for serializable singles.
  *
- * @param <T1> the type of the element of the decuple // TODO fix + others
+ * @param <T1> the type of the element of the single
  */
 public interface ISerializableSingle<T1 extends Serializable> extends ISerializableTuple, ISingle<T1>, Serializable {
 
@@ -21,9 +21,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     ISerializableSingle<T1> clone();
 
     /**
-     * Creates a serializable pair from the element of this single and the single in parameters.
+     * Creates a serializable pair from the element of this single and the specified single.
      *
-     * @param single the single that contains the elements with which the pair will be constructed
+     * @param single the single to append to this single
      * @param <T2> the type of the second element of the pair
      * @return a {@code ISerializablePair}
      */
@@ -32,9 +32,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     }
 
     /**
-     * Creates a serializable triple from the element of this single and the pair in parameters.
+     * Creates a serializable triple from the element of this single and the specified pair.
      *
-     * @param pair the pair that contains the elements with which the triple will be constructed
+     * @param pair the pair to append to this single
      * @param <T2> the type of the second element of the triple
      * @param <T3> the type of the third element of the triple
      * @return a {@code ISerializableTriple}
@@ -44,9 +44,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     }
 
     /**
-     * Creates a serializable quad from the element of this single and the triple in parameters.
+     * Creates a serializable quad from the element of this single and the specified triple.
      *
-     * @param triple the triple that contains the elements with which the quad will be constructed
+     * @param triple the triple to append to this single
      * @param <T2> the type of the second element of the quad
      * @param <T3> the type of the third element of the quad
      * @param <T4> the type of the fourth element of the quad
@@ -57,9 +57,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     }
 
     /**
-     * Creates a serializable quint from the element of this single and the quad in parameters.
+     * Creates a serializable quint from the element of this single and the specified quad.
      *
-     * @param quad the quad that contains the elements with which the quint will be constructed
+     * @param quad the quad to append to this single
      * @param <T2> the type of the second element of the quint
      * @param <T3> the type of the third element of the quint
      * @param <T4> the type of the fourth element of the quint
@@ -71,9 +71,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     }
 
     /**
-     * Creates a serializable sextuple from the element of this single and the quint in parameters.
+     * Creates a serializable sextuple from the element of this single and the specified quint.
      *
-     * @param quint the quint that contains the elements with which the sextuple will be constructed
+     * @param quint the quint to append to this single
      * @param <T2> the type of the second element of the sextuple
      * @param <T3> the type of the third element of the sextuple
      * @param <T4> the type of the fourth element of the sextuple
@@ -86,9 +86,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     }
 
     /**
-     * Creates a serializable septuple from the element of this single and the sextuple in parameters.
+     * Creates a serializable septuple from the element of this single and the specified sextuple.
      *
-     * @param sextuple the sextuple that contains the elements with which the septuple will be constructed
+     * @param sextuple the sextuple to append to this single
      * @param <T2> the type of the second element of the septuple
      * @param <T3> the type of the third element of the septuple
      * @param <T4> the type of the fourth element of the septuple
@@ -102,9 +102,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     }
 
     /**
-     * Creates a serializable octa from the element of this single and the septuple in parameters.
+     * Creates a serializable octa from the element of this single and the specified septuple.
      *
-     * @param septuple the septuple that contains the elements with which the octa will be constructed
+     * @param septuple the septuple to append to this single
      * @param <T2> the type of the second element of the octa
      * @param <T3> the type of the third element of the octa
      * @param <T4> the type of the fourth element of the octa
@@ -119,9 +119,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     }
 
     /**
-     * Creates a serializable nonuple from the element of this single and the octa in parameters.
+     * Creates a serializable nonuple from the element of this single and the specified octa.
      *
-     * @param octa the octa that contains the elements with which the nonuple will be constructed
+     * @param octa the octa to append to this single
      * @param <T2> the type of the second element of the nonuple
      * @param <T3> the type of the third element of the nonuple
      * @param <T4> the type of the fourth element of the nonuple
@@ -137,9 +137,9 @@ public interface ISerializableSingle<T1 extends Serializable> extends ISerializa
     }
 
     /**
-     * Creates a serializable decuple from the element of this single and the nonuple in parameters.
+     * Creates a serializable decuple from the element of this single and the specified nonuple.
      *
-     * @param nonuple the nonuple that contains the elements with which the decuple will be constructed
+     * @param nonuple the nonuple to append to this single
      * @param <T2> the type of the second element of the decuple
      * @param <T3> the type of the third element of the decuple
      * @param <T4> the type of the fourth element of the decuple

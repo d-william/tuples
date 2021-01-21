@@ -23,9 +23,9 @@ public interface ITriple<T1, T2, T3> extends ITuple, IGetValue1<T1>, IGetValue2<
     }
 
     /**
-     * Creates a quad from the element of this triple and the single in parameters.
+     * Creates a quad from the element of this triple and the specified single.
      *
-     * @param single the single that contains the elements with which the quad will be constructed
+     * @param single the single to append to this triple
      * @param <T4> the type of the fourth element of the quad
      * @return a {@code IQuad}
      */
@@ -34,9 +34,9 @@ public interface ITriple<T1, T2, T3> extends ITuple, IGetValue1<T1>, IGetValue2<
     }
 
     /**
-     * Creates a quint from the element of this triple and the pair in parameters.
+     * Creates a quint from the element of this triple and the specified pair.
      *
-     * @param pair the pair that contains the elements with which the quint will be constructed
+     * @param pair the pair to append to this triple
      * @param <T4> the type of the fourth element of the quint
      * @param <T5> the type of the fifth element of the quint
      * @return a {@code IQuint}
@@ -46,9 +46,9 @@ public interface ITriple<T1, T2, T3> extends ITuple, IGetValue1<T1>, IGetValue2<
     }
 
     /**
-     * Creates a sextuple from the element of this triple and the triple in parameters.
+     * Creates a sextuple from the element of this triple and the specified triple.
      *
-     * @param triple the triple that contains the elements with which the sextuple will be constructed
+     * @param triple the triple to append to this triple
      * @param <T4> the type of the fourth element of the sextuple
      * @param <T5> the type of the fifth element of the sextuple
      * @param <T6> the type of the sixth element of the sextuple
@@ -59,9 +59,9 @@ public interface ITriple<T1, T2, T3> extends ITuple, IGetValue1<T1>, IGetValue2<
     }
 
     /**
-     * Creates a septuple from the element of this triple and the quad in parameters.
+     * Creates a septuple from the element of this triple and the specified quad.
      *
-     * @param quad the quad that contains the elements with which the septuple will be constructed
+     * @param quad the quad to append to this triple
      * @param <T4> the type of the fourth element of the septuple
      * @param <T5> the type of the fifth element of the septuple
      * @param <T6> the type of the sixth element of the septuple
@@ -73,9 +73,9 @@ public interface ITriple<T1, T2, T3> extends ITuple, IGetValue1<T1>, IGetValue2<
     }
 
     /**
-     * Creates a octa from the element of this triple and the quint in parameters.
+     * Creates a octa from the element of this triple and the specified quint.
      *
-     * @param quint the quint that contains the elements with which the octa will be constructed
+     * @param quint the quint to append to this triple
      * @param <T4> the type of the fourth element of the octa
      * @param <T5> the type of the fifth element of the octa
      * @param <T6> the type of the sixth element of the octa
@@ -88,9 +88,9 @@ public interface ITriple<T1, T2, T3> extends ITuple, IGetValue1<T1>, IGetValue2<
     }
 
     /**
-     * Creates a nonuple from the element of this triple and the sextuple in parameters.
+     * Creates a nonuple from the element of this triple and the specified sextuple.
      *
-     * @param sextuple the sextuple that contains the elements with which the nonuple will be constructed
+     * @param sextuple the sextuple to append to this triple
      * @param <T4> the type of the fourth element of the nonuple
      * @param <T5> the type of the fifth element of the nonuple
      * @param <T6> the type of the sixth element of the nonuple
@@ -104,9 +104,9 @@ public interface ITriple<T1, T2, T3> extends ITuple, IGetValue1<T1>, IGetValue2<
     }
 
     /**
-     * Creates a decuple from the element of this triple and the septuple in parameters.
+     * Creates a decuple from the element of this triple and the specified septuple.
      *
-     * @param septuple the septuple that contains the elements with which the decuple will be constructed
+     * @param septuple the septuple to append to this triple
      * @param <T4> the type of the fourth element of the decuple
      * @param <T5> the type of the fifth element of the decuple
      * @param <T6> the type of the sixth element of the decuple

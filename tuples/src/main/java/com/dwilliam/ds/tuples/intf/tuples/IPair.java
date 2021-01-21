@@ -21,9 +21,9 @@ public interface IPair<T1, T2> extends ITuple, IGetValue1<T1>, IGetValue2<T2> {
     }
 
     /**
-     * Creates a triple from the element of this pair and the single in parameters.
+     * Creates a triple from the element of this pair and the specified single.
      *
-     * @param single the single that contains the elements with which the triple will be constructed
+     * @param single the single to append to this pair
      * @param <T3> the type of the third element of the triple
      * @return a {@code ITriple}
      */
@@ -32,9 +32,9 @@ public interface IPair<T1, T2> extends ITuple, IGetValue1<T1>, IGetValue2<T2> {
     }
 
     /**
-     * Creates a quad from the element of this pair and the pair in parameters.
+     * Creates a quad from the element of this pair and the specified pair.
      *
-     * @param pair the pair that contains the elements with which the quad will be constructed
+     * @param pair the pair to append to this pair
      * @param <T3> the type of the third element of the quad
      * @param <T4> the type of the fourth element of the quad
      * @return a {@code IQuad}
@@ -44,9 +44,9 @@ public interface IPair<T1, T2> extends ITuple, IGetValue1<T1>, IGetValue2<T2> {
     }
 
     /**
-     * Creates a quint from the element of this pair and the triple in parameters.
+     * Creates a quint from the element of this pair and the specified triple.
      *
-     * @param triple the triple that contains the elements with which the quint will be constructed
+     * @param triple the triple to append to this pair
      * @param <T3> the type of the third element of the quint
      * @param <T4> the type of the fourth element of the quint
      * @param <T5> the type of the fifth element of the quint
@@ -57,9 +57,9 @@ public interface IPair<T1, T2> extends ITuple, IGetValue1<T1>, IGetValue2<T2> {
     }
 
     /**
-     * Creates a sextuple from the element of this pair and the quad in parameters.
+     * Creates a sextuple from the element of this pair and the specified quad.
      *
-     * @param quad the quad that contains the elements with which the sextuple will be constructed
+     * @param quad the quad to append to this pair
      * @param <T3> the type of the third element of the sextuple
      * @param <T4> the type of the fourth element of the sextuple
      * @param <T5> the type of the fifth element of the sextuple
@@ -71,9 +71,9 @@ public interface IPair<T1, T2> extends ITuple, IGetValue1<T1>, IGetValue2<T2> {
     }
 
     /**
-     * Creates a septuple from the element of this pair and the quint in parameters.
+     * Creates a septuple from the element of this pair and the specified quint.
      *
-     * @param quint the quint that contains the elements with which the septuple will be constructed
+     * @param quint the quint to append to this pair
      * @param <T3> the type of the third element of the septuple
      * @param <T4> the type of the fourth element of the septuple
      * @param <T5> the type of the fifth element of the septuple
@@ -86,9 +86,9 @@ public interface IPair<T1, T2> extends ITuple, IGetValue1<T1>, IGetValue2<T2> {
     }
 
     /**
-     * Creates a octa from the element of this pair and the sextuple in parameters.
+     * Creates a octa from the element of this pair and the specified sextuple.
      *
-     * @param sextuple the sextuple that contains the elements with which the octa will be constructed
+     * @param sextuple the sextuple to append to this pair
      * @param <T3> the type of the third element of the octa
      * @param <T4> the type of the fourth element of the octa
      * @param <T5> the type of the fifth element of the octa
@@ -102,9 +102,9 @@ public interface IPair<T1, T2> extends ITuple, IGetValue1<T1>, IGetValue2<T2> {
     }
 
     /**
-     * Creates a nonuple from the element of this pair and the septuple in parameters.
+     * Creates a nonuple from the element of this pair and the specified septuple.
      *
-     * @param septuple the septuple that contains the elements with which the nonuple will be constructed
+     * @param septuple the septuple to append to this pair
      * @param <T3> the type of the third element of the nonuple
      * @param <T4> the type of the fourth element of the nonuple
      * @param <T5> the type of the fifth element of the nonuple
@@ -119,9 +119,9 @@ public interface IPair<T1, T2> extends ITuple, IGetValue1<T1>, IGetValue2<T2> {
     }
 
     /**
-     * Creates a decuple from the element of this pair and the octa in parameters.
+     * Creates a decuple from the element of this pair and the specified octa.
      *
-     * @param octa the octa that contains the elements with which the decuple will be constructed
+     * @param octa the octa to append to this pair
      * @param <T3> the type of the third element of the decuple
      * @param <T4> the type of the fourth element of the decuple
      * @param <T5> the type of the fifth element of the decuple

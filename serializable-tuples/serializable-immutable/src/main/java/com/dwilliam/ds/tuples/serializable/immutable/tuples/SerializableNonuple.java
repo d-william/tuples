@@ -20,7 +20,7 @@ public class SerializableNonuple<T1 extends Serializable, T2 extends Serializabl
 
     @Override
     public SerializableNonuple<T1, T2, T3, T4, T5, T6, T7, T8, T9> clone() {
-        return new SerializableNonuple<>(this); // SerializableNonuple<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+        return new SerializableNonuple<>(this);
     }
 
     @Override

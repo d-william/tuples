@@ -8,13 +8,13 @@ import java.io.Serializable;
 /**
  * Marker interface for serializable septuples.
  *
- * @param <T1> the type of the first element of the decuple
- * @param <T2> the type of the second element of the decuple
- * @param <T3> the type of the third element of the decuple
- * @param <T4> the type of the fourth element of the decuple
- * @param <T5> the type of the fifth element of the decuple
- * @param <T6> the type of the sixth element of the decuple
- * @param <T7> the type of the seventh element of the decuple
+ * @param <T1> the type of the first element of the septuple
+ * @param <T2> the type of the second element of the septuple
+ * @param <T3> the type of the third element of the septuple
+ * @param <T4> the type of the fourth element of the septuple
+ * @param <T5> the type of the fifth element of the septuple
+ * @param <T6> the type of the sixth element of the septuple
+ * @param <T7> the type of the seventh element of the septuple
  */
 public interface ISerializableSeptuple<T1 extends Serializable, T2 extends Serializable, T3 extends Serializable, T4 extends Serializable, T5 extends Serializable, T6 extends Serializable, T7 extends Serializable> extends ISerializableTuple, ISeptuple<T1, T2, T3, T4, T5, T6, T7>, Serializable {
 
@@ -27,9 +27,9 @@ public interface ISerializableSeptuple<T1 extends Serializable, T2 extends Seria
     ISerializableSeptuple<T1, T2, T3, T4, T5, T6, T7> clone();
 
     /**
-     * Creates a serializable octa from the element of this septuple and the single in parameters.
+     * Creates a serializable octa from the element of this septuple and the specified single.
      *
-     * @param single the single that contains the elements with which the octa will be constructed
+     * @param single the single to append to this septuple
      * @param <T8> the type of the eighth element of the octa
      * @return a {@code ISerializableOcta}
      */
@@ -38,9 +38,9 @@ public interface ISerializableSeptuple<T1 extends Serializable, T2 extends Seria
     }
 
     /**
-     * Creates a serializable nonuple from the element of this septuple and the pair in parameters.
+     * Creates a serializable nonuple from the element of this septuple and the specified pair.
      *
-     * @param pair the pair that contains the elements with which the nonuple will be constructed
+     * @param pair the pair to append to this septuple
      * @param <T8> the type of the eighth element of the nonuple
      * @param <T9> the type of the ninth element of the nonuple
      * @return a {@code ISerializableNonuple}
@@ -50,9 +50,9 @@ public interface ISerializableSeptuple<T1 extends Serializable, T2 extends Seria
     }
 
     /**
-     * Creates a serializable decuple from the element of this septuple and the triple in parameters.
+     * Creates a serializable decuple from the element of this septuple and the specified triple.
      *
-     * @param triple the triple that contains the elements with which the decuple will be constructed
+     * @param triple the triple to append to this septuple
      * @param <T8> the type of the eighth element of the decuple
      * @param <T9> the type of the ninth element of the decuple
      * @param <T10> the type of the tenth element of the decuple

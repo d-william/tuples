@@ -22,7 +22,7 @@ public class SerializableSeptuple<T1 extends Serializable, T2 extends Serializab
 
     @Override
     public SerializableSeptuple<T1, T2, T3, T4, T5, T6, T7> clone() {
-        return new SerializableSeptuple<>(this); // SerializableSeptuple<T1, T2, T3, T4, T5, T6, T7>
+        return new SerializableSeptuple<>(this);
     }
 
     @Override

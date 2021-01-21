@@ -20,7 +20,7 @@ public class SerializableQuint<T1 extends Serializable, T2 extends Serializable,
 
     @Override
     public SerializableQuint<T1, T2, T3, T4, T5> clone() {
-        return new SerializableQuint<>(this); // SerializableQuint<T1, T2, T3, T4, T5>
+        return new SerializableQuint<>(this);
     }
 
     @Override

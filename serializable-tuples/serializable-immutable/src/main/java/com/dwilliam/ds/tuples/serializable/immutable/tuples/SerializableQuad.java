@@ -20,7 +20,7 @@ public class SerializableQuad<T1 extends Serializable, T2 extends Serializable, 
 
     @Override
     public SerializableQuad<T1, T2, T3, T4> clone() {
-        return new SerializableQuad<>(this); // SerializableQuad<T1, T2, T3, T4>
+        return new SerializableQuad<>(this);
     }
 
     @Override

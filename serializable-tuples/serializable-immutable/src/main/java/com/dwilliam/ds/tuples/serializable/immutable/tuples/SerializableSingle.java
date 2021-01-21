@@ -21,7 +21,7 @@ public class SerializableSingle<T1 extends Serializable> extends Single<T1> impl
 
     @Override
     public SerializableSingle<T1> clone() {
-        return new SerializableSingle<T1>(this); // SerializableSingle<T1> // TODO rm comment + others
+        return new SerializableSingle<T1>(this);
     }
 
     @Override

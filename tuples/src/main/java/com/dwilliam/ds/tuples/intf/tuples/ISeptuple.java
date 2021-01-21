@@ -25,9 +25,9 @@ public interface ISeptuple<T1, T2, T3, T4, T5, T6, T7> extends ITuple, IGetValue
     }
 
     /**
-     * Creates a octa from the element of this septuple and the single in parameters.
+     * Creates a octa from the element of this septuple and the specified single.
      *
-     * @param single the single that contains the elements with which the octa will be constructed
+     * @param single the single to append to this septuple
      * @param <T8> the type of the eighth element of the octa
      * @return a {@code IOcta}
      */
@@ -36,9 +36,9 @@ public interface ISeptuple<T1, T2, T3, T4, T5, T6, T7> extends ITuple, IGetValue
     }
 
     /**
-     * Creates a nonuple from the element of this septuple and the pair in parameters.
+     * Creates a nonuple from the element of this septuple and the specified pair.
      *
-     * @param pair the pair that contains the elements with which the nonuple will be constructed
+     * @param pair the pair to append to this septuple
      * @param <T8> the type of the eighth element of the nonuple
      * @param <T9> the type of the ninth element of the nonuple
      * @return a {@code INonuple}
@@ -48,9 +48,9 @@ public interface ISeptuple<T1, T2, T3, T4, T5, T6, T7> extends ITuple, IGetValue
     }
 
     /**
-     * Creates a decuple from the element of this septuple and the triple in parameters.
+     * Creates a decuple from the element of this septuple and the specified triple.
      *
-     * @param triple the triple that contains the elements with which the decuple will be constructed
+     * @param triple the triple to append to this septuple
      * @param <T8> the type of the eighth element of the decuple
      * @param <T9> the type of the ninth element of the decuple
      * @param <T10> the type of the tenth element of the decuple

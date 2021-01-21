@@ -23,7 +23,7 @@ public class SerializableSextuple<T1 extends Serializable, T2 extends Serializab
 
     @Override
     public SerializableSextuple<T1, T2, T3, T4, T5, T6> clone() {
-        return new SerializableSextuple<>(this); // SerializableSextuple<T1, T2, T3, T4, T5, T6>
+        return new SerializableSextuple<>(this);
     }
 
     @Override

@@ -21,7 +21,7 @@ public class SerializableOcta<T1 extends Serializable, T2 extends Serializable, 
 
     @Override
     public SerializableOcta<T1, T2, T3, T4, T5, T6, T7, T8> clone() {
-        return new SerializableOcta<>(this); // SerializableOcta<T1, T2, T3, T4, T5, T6, T7, T8>
+        return new SerializableOcta<>(this);
     }
 
     @Override

@@ -8,11 +8,11 @@ import java.io.Serializable;
 /**
  * Marker interface for serializable quintuples.
  *
- * @param <T1> the type of the first element of the decuple
- * @param <T2> the type of the second element of the decuple
- * @param <T3> the type of the third element of the decuple
- * @param <T4> the type of the fourth element of the decuple
- * @param <T5> the type of the fifth element of the decuple
+ * @param <T1> the type of the first element of the quintuple
+ * @param <T2> the type of the second element of the quintuple
+ * @param <T3> the type of the third element of the quintuple
+ * @param <T4> the type of the fourth element of the quintuple
+ * @param <T5> the type of the fifth element of the quintuple
  */
 public interface ISerializableQuint<T1 extends Serializable, T2 extends Serializable, T3 extends Serializable, T4 extends Serializable, T5 extends Serializable> extends ISerializableTuple, IQuint<T1, T2, T3, T4, T5>, Serializable {
 
@@ -25,9 +25,9 @@ public interface ISerializableQuint<T1 extends Serializable, T2 extends Serializ
     ISerializableQuint<T1, T2, T3, T4, T5> clone();
 
     /**
-     * Creates a serializable sextuple from the element of this quintuple and the single in parameters.
+     * Creates a serializable sextuple from the element of this quintuple and the specified single.
      *
-     * @param single the single that contains the elements with which the sextuple will be constructed
+     * @param single the single to append to this quintuple
      * @param <T6> the type of the sixth element of the sextuple
      * @return a {@code ISerializableSextuple}
      */
@@ -36,9 +36,9 @@ public interface ISerializableQuint<T1 extends Serializable, T2 extends Serializ
     }
 
     /**
-     * Creates a serializable septuple from the element of this quintuple and the pair in parameters.
+     * Creates a serializable septuple from the element of this quintuple and the specified pair.
      *
-     * @param pair the pair that contains the elements with which the septuple will be constructed
+     * @param pair the pair to append to this quintuple
      * @param <T6> the type of the sixth element of the septuple
      * @param <T7> the type of the seventh element of the septuple
      * @return a {@code ISerializableSeptuple}
@@ -48,9 +48,9 @@ public interface ISerializableQuint<T1 extends Serializable, T2 extends Serializ
     }
 
     /**
-     * Creates a serializable octa from the element of this quintuple and the triple in parameters.
+     * Creates a serializable octa from the element of this quintuple and the specified triple.
      *
-     * @param triple the triple that contains the elements with which the octa will be constructed
+     * @param triple the triple to append to this quintuple
      * @param <T6> the type of the sixth element of the octa
      * @param <T7> the type of the seventh element of the octa
      * @param <T8> the type of the eighth element of the octa
@@ -61,9 +61,9 @@ public interface ISerializableQuint<T1 extends Serializable, T2 extends Serializ
     }
 
     /**
-     * Creates a serializable nonuple from the element of this quintuple and the quad in parameters.
+     * Creates a serializable nonuple from the element of this quintuple and the specified quad.
      *
-     * @param quad the quad that contains the elements with which the nonuple will be constructed
+     * @param quad the quad to append to this quintuple
      * @param <T6> the type of the sixth element of the nonuple
      * @param <T7> the type of the seventh element of the nonuple
      * @param <T8> the type of the eighth element of the nonuple
@@ -75,9 +75,9 @@ public interface ISerializableQuint<T1 extends Serializable, T2 extends Serializ
     }
 
     /**
-     * Creates a serializable decuple from the element of this quintuple and the quint in parameters.
+     * Creates a serializable decuple from the element of this quintuple and the specified quint.
      *
-     * @param quint the quint that contains the elements with which the decuple will be constructed
+     * @param quint the quint to append to this quintuple
      * @param <T6> the type of the sixth element of the decuple
      * @param <T7> the type of the seventh element of the decuple
      * @param <T8> the type of the eighth element of the decuple

@@ -27,9 +27,9 @@ public interface INonuple<T1, T2, T3, T4, T5, T6, T7, T8, T9> extends ITuple, IG
     }
 
     /**
-     * Creates a decuple from the element of this nonuple and the single in parameters.
+     * Creates a decuple from the element of this nonuple and the specified single.
      *
-     * @param single the single that contains the elements with which the decuple will be constructed
+     * @param single the single to append to this nonuple
      * @param <T10> the type of the tenth element of the decuple
      * @return a {@code IDecuple}
      */
